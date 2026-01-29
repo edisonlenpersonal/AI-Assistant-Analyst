@@ -1,1 +1,10 @@
-now ?
+anthropic
+python-dotenv
+langgraph
+langchain
+langchain-anthropic
+pandas
+duckdb
+plotly
+streamlit
+tabulate
