@@ -1,17 +1,8 @@
 """
 Schema Analyzer Node
-====================
 
-This node is the "eyes" of our agent. It:
-1. Loads the CSV file
-2. Extracts column names and types
-3. Gets sample rows
-4. Creates a structured summary for the LLM
-
-Why this matters:
-- LLMs can't "see" files directly
-- We need to convert data structure into text
-- Good schema description = better code generation
+Analyzes uploaded CSV files and extracts schema information
+for use in downstream analysis planning.
 """
 
 import pandas as pd

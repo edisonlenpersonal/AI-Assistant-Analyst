@@ -1,15 +1,7 @@
 """
 Reporter Node
-=============
 
-This node transforms raw analysis output into a polished report.
-
-Why this matters:
-- Raw code output is messy (debug prints, technical jargon)
-- Users want clear answers, not code logs
-- Good reporting shows business value, not just technical work
-
-This is what separates a demo from a product.
+Generates human-readable analysis reports from execution results.
 """
 
 from app.utils.llm import call_llm

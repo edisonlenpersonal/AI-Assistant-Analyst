@@ -1,16 +1,8 @@
 """
 Debugger Node
-=============
 
-This node analyzes execution errors and fixes the code.
-
-The self-correction loop:
-1. Executor runs code → fails with error
-2. Debugger sees the error → asks Claude to fix it
-3. Fixed code goes back to Executor
-4. Repeat up to 3 times
-
-This is a KEY differentiator for your portfolio - most agents don't self-correct.
+Analyzes execution errors and generates corrected code.
+Implements self-correction loop with up to 3 retry attempts.
 """
 
 from app.utils.llm import call_llm

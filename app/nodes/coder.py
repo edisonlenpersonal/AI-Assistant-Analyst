@@ -1,13 +1,7 @@
 """
 Coder Node
-==========
 
-This node generates Python code based on:
-1. The analysis plan from the Planner
-2. The dataset schema
-3. The user's question
-
-The code will be executed in the next node.
+Generates Python code based on the analysis plan and dataset schema.
 """
 
 from app.utils.llm import call_llm

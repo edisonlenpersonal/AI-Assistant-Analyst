@@ -1,16 +1,8 @@
 """
 Planner Node
-============
 
-This node creates an analysis plan by:
-1. Looking at the dataset schema
-2. Understanding the user's question
-3. Breaking down the analysis into steps
-
-Why separate planning from coding?
-- Better results: thinking before doing
-- Easier debugging: we can see if the plan was wrong
-- More transparent: user can see the reasoning
+Creates step-by-step analysis plans based on dataset schema
+and user questions.
 """
 
 from app.utils.llm import call_llm

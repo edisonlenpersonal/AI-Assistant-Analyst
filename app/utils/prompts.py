@@ -1,14 +1,7 @@
 """
 Prompt Templates for DataLens AI
-================================
 
-Centralizing prompts makes them:
-- Easy to iterate and improve
-- Consistent across the application
-- Testable independently
-
-Interview tip: Prompt engineering is a real skill. Being able to 
-explain WHY you structured prompts a certain way shows depth.
+Centralized prompt templates for all LLM interactions.
 """
 
 PLANNER_PROMPT = """You are a data analysis expert. Your job is to create a clear, step-by-step analysis plan.

@@ -1,13 +1,8 @@
 """
 Executor Node
-=============
 
-This node runs the generated Python code and captures:
-- Output (print statements)
-- Errors (if any)
-- Figures (Plotly visualizations)
-
-If execution fails, the error is stored so the Debugger can fix it.
+Safely executes generated Python code and captures output,
+errors, and visualizations.
 """
 
 from app.tools.code_executor import execute_code_safely

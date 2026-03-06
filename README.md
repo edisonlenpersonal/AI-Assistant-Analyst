@@ -119,15 +119,6 @@ datalens-ai/
 - Interactive visualizations
 - Professional report with insights
 
-## 🎓 Interview Talking Points
-
-This project demonstrates:
-
-1. **Agentic AI Systems** - Multi-step reasoning with LangGraph
-2. **Self-Correction** - Automatic error handling and code fixing
-3. **Code Generation** - LLM generates and executes Python
-4. **Production Thinking** - State management, error handling, user feedback
-5. **Full Stack Integration** - Backend agent + Streamlit frontend
 
 ## 📝 License
 

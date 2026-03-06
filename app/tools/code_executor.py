@@ -1,15 +1,8 @@
 """
 Code Executor Tool
-==================
 
-Safely executes generated Python code and captures:
-- Standard output (print statements)
-- Errors and exceptions
-- Plotly figures (for visualization)
-
-Safety note: This executes arbitrary code. In production,
-you'd want to run this in a sandboxed environment (Docker, E2B, etc.)
-For this portfolio project, we run locally with basic precautions.
+Safely executes Python code and captures output, errors,
+and Plotly figures.
 """
 
 import sys
