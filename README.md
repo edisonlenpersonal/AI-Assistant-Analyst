@@ -45,7 +45,7 @@ DataLens AI:
 
 ### 1. Clone and Setup
 ```bash
-git clone https://github.com/yourusername/datalens-ai.git
+git clone https://github.com/edisonlenpersonal/AI-Assistant-Analyst
 cd datalens-ai
 
 python -m venv venv
@@ -126,6 +126,6 @@ MIT License - feel free to use for your own portfolio!
 
 ## 🤝 Contact
 
-- GitHub: [your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
-- Email: your.email@example.com
+- GitHub: [My Github](https://github.com/edisonlenpersonal/AI-Assistant-Analyst)
+- LinkedIn: [My linkedin](https://www.linkedin.com/in/edison-len/)
+- Email: edisonlen02128@gmail.com
